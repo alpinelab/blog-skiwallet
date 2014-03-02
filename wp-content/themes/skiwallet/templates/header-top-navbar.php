@@ -7,10 +7,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>/">
-        <img src="<?= image_asset('logo-header.png') ?>">
-        <span class="baseline">LE BLOG (on parle de ski et de forfaits)</span>
-      </a>
+      <h1>
+        <a class="navbar-brand" href="<?php echo home_url(); ?>/">
+          <img src="<?= image_asset('logo-header.png') ?>" alt="SkiWallet">
+          <span class="baseline">LE BLOG</span>
+        </a>
+      </h1>
     </div>
   </div>
 </header>
