@@ -3,6 +3,7 @@
  */
 
 @import "bootstrap/bootstrap.less";
+@import "fonts.less";
 
 /* ==========================================================================
    Base
@@ -16,7 +17,22 @@ body { }
    Header
    ========================================================================== */
 
-.banner { }
+.banner {
+   border-bottom: none;
+   .container {
+      position: relative;
+      .navbar-brand {
+         img { margin: 1em 0; }
+         .baseline {
+            color: @sw_blue;
+            font-family: 'BaseNineMedium', Arial, sans-serif;
+            position: absolute;
+            top: 5em;
+            left: 7em;
+         }
+      }
+   }
+}
 
 
 
