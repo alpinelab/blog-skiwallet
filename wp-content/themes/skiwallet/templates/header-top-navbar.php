@@ -1,5 +1,6 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container">
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -14,5 +15,13 @@
         </a>
       </h1>
     </div>
+
+    <div class="nav navbar-nav navbar-right">
+      <a  href="https://www.skiwallet.com" class="btn btn-primary">
+        <i class="glyphicon glyphicon-share-alt"></i>
+        Retour sur SkiWallet
+      </a>
+    </div>
+
   </div>
 </header>
