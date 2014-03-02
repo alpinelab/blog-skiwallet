@@ -1,25 +1,35 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: SkiWallet\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-14 18:49+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: Sun Mar 02 2014 17:10:36 GMT+0100 (CET)\n"
+"Last-Translator: Michael Baudino <michael.baudino+siteground@skiwallet.com>\n"
 "Language-Team: \n"
+"Language: French\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-Basepath: ../\n"
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: FRANCE\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ./templates\n"
 "X-Poedit-SearchPath-2: ./lib\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Generator: Loco - https://localise.biz/"
 
 #: 404.php:5
-msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgid ""
+"The page you are looking for might have been removed, had its name changed, or "
+"is temporarily unavailable."
 msgstr "La page demandée a changé de nom ou est temporairement inaccessible."
 
 #: 404.php:8
@@ -31,7 +41,6 @@ msgid "Check your spelling"
 msgstr "Vérifiez votre syntaxe"
 
 #: 404.php:11
-#, php-format
 msgid "Return to the <a href=\"%s\">home page</a>"
 msgstr "Revenir à la <a href=\"%s\">page d'accueil</a>"
 
@@ -45,7 +54,6 @@ msgid "Theme Activation"
 msgstr "Activation du thème"
 
 #: lib/activation.php:68
-#, php-format
 msgid "%s Theme Activation"
 msgstr "Activation du thème %s"
 
@@ -121,9 +129,10 @@ msgid "Continued"
 msgstr "Suite"
 
 #: lib/htaccess.php:25
-#, php-format
 msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writable "
-msgstr "Veuillez vérifier que votre fichier <a href=\"%s\">.htaccess</a> soit accessible en écriture"
+msgstr ""
+"Veuillez vérifier que votre fichier <a href=\"%s\">.htaccess</a> soit accessible "
+"en écriture"
 
 #: lib/init.php:13
 msgid "Primary Navigation"
@@ -134,27 +143,22 @@ msgid "Latest Posts"
 msgstr "Derniers Articles"
 
 #: lib/utils.php:23
-#, php-format
 msgid "Daily Archives: %s"
 msgstr "Archives quotidiennes : %s"
 
 #: lib/utils.php:25
-#, php-format
 msgid "Monthly Archives: %s"
 msgstr "Archives mensuelles : %s"
 
 #: lib/utils.php:27
-#, php-format
 msgid "Yearly Archives: %s"
 msgstr "Archives annuelles : %s"
 
 #: lib/utils.php:31
-#, php-format
 msgid "Author Archives: %s"
 msgstr "Archives d'auteurs : %s"
 
 #: lib/utils.php:36
-#, php-format
 msgid "Search Results for %s"
 msgstr "Résultats de la recherche pour %s"
 
@@ -183,12 +187,10 @@ msgid "vCard"
 msgstr "vCard"
 
 #: templates/comments.php:7
-#, php-format
 msgid "<cite class=\"fn\">%s</cite>"
 msgstr "<cite class=\"fn\">%s</cite>"
 
 #: templates/comments.php:8
-#, php-format
 msgid "%1$s"
 msgstr "%1$s"
 
@@ -202,7 +204,9 @@ msgstr "Votre commentaire est en attente de modération."
 
 #: templates/comments.php:32
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Cet article est protégé par mot de passe. Entrez le mot de passe pour voir les commentaires."
+msgstr ""
+"Cet article est protégé par mot de passe. Entrez le mot de passe pour voir les "
+"commentaires."
 
 #: templates/comments.php:39
 msgid "One Response to &ldquo;%2$s&rdquo;"
@@ -230,17 +234,14 @@ msgid "Leave a Reply"
 msgstr "Répondre"
 
 #: templates/comments.php:83
-#, php-format
 msgid "Leave a Reply to %s"
 msgstr "Répondre à %s"
 
 #: templates/comments.php:86
-#, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Vous devez être <a href=\"%s\">connecté</a> pour ajouter un commentaire."
 
 #: templates/comments.php:90
-#, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
 msgstr "Connecté en tant que <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
@@ -296,13 +297,12 @@ msgid "Newer posts &rarr;"
 msgstr "Articles plus récents &rarr;"
 
 #: templates/entry-meta.php:1
-#, php-format
 msgid "Posted on %s at %s."
 msgstr "Publié le %s à %s."
 
 #: templates/entry-meta.php:2
 msgid "Written by"
-msgstr "Rédigé par"
+msgstr "Écrit par"
 
 #: templates/searchform.php:2
 msgid "Search for:"
@@ -333,4 +333,3 @@ msgstr "Téléphone :"
 
 msgid "Email:"
 msgstr "Email :"
-
