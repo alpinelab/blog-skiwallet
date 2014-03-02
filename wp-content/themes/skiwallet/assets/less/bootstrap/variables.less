@@ -13,43 +13,45 @@
 @gray-light:             lighten(#000, 60%);   // #999
 @gray-lighter:           lighten(#000, 93.5%); // #eee
 
-@brand-primary:         #428bca;
-@brand-success:         #5cb85c;
-@brand-info:            #5bc0de;
-@brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
-
-
 // SkiWallet
 
 @sw_red:                #e95952;
-@sw_light_red:          lighten($sw_red, 10%);
-@sw_lighter_red:        lighten($sw_red, 20%);
-@sw_lightest_red:       lighten($sw_red, 35%);
-@sw_dark_red:           darken($sw_red, 10%);
-@sw_darker_red:         darken($sw_red, 20%);
-@sw_darkest_red:        darken($sw_red, 35%);
+@sw_light_red:          lighten(@sw_red, 10%);
+@sw_lighter_red:        lighten(@sw_red, 20%);
+@sw_lightest_red:       lighten(@sw_red, 35%);
+@sw_dark_red:           darken(@sw_red, 10%);
+@sw_darker_red:         darken(@sw_red, 20%);
+@sw_darkest_red:        darken(@sw_red, 35%);
 @sw_blue:               #62bde6;
-@sw_light_blue:         lighten($sw_blue, 10%);
-@sw_lighter_blue:       lighten($sw_blue, 20%);
-@sw_lightest_blue:      lighten($sw_blue, 25%);
-@sw_dark_blue:          darken($sw_blue, 10%);
-@sw_darker_blue:        darken($sw_blue, 20%);
-@sw_darkest_blue:       darken($sw_blue, 25%);
+@sw_light_blue:         lighten(@sw_blue, 10%);
+@sw_lighter_blue:       lighten(@sw_blue, 20%);
+@sw_lightest_blue:      lighten(@sw_blue, 25%);
+@sw_dark_blue:          darken(@sw_blue, 10%);
+@sw_darker_blue:        darken(@sw_blue, 20%);
+@sw_darkest_blue:       darken(@sw_blue, 25%);
 @sw_gray:               #949698;
-@sw_light_gray:         lighten($sw_gray, 10%);
-@sw_lighter_gray:       lighten($sw_gray, 20%);
-@sw_lightest_gray:      lighten($sw_gray, 35%);
-@sw_dark_gray:          darken($sw_gray, 10%);
-@sw_darker_gray:        darken($sw_gray, 20%);
-@sw_darkest_gray:       darken($sw_gray, 35%);
+@sw_light_gray:         lighten(@sw_gray, 10%);
+@sw_lighter_gray:       lighten(@sw_gray, 20%);
+@sw_lightest_gray:      lighten(@sw_gray, 35%);
+@sw_dark_gray:          darken(@sw_gray, 10%);
+@sw_darker_gray:        darken(@sw_gray, 20%);
+@sw_darkest_gray:       darken(@sw_gray, 35%);
 @sw_green:              #00a75a;
-@sw_light_green:        lighten($sw_green, 10%);
-@sw_lighter_green:      lighten($sw_green, 20%);
-@sw_lightest_green:     lighten($sw_green, 35%);
-@sw_dark_green:         darken($sw_green, 10%);
-@sw_darker_green:       darken($sw_green, 20%);
-@sw_darkest_green:      darken($sw_green, 35%);
+@sw_light_green:        lighten(@sw_green, 10%);
+@sw_lighter_green:      lighten(@sw_green, 20%);
+@sw_lightest_green:     lighten(@sw_green, 35%);
+@sw_dark_green:         darken(@sw_green, 10%);
+@sw_darker_green:       darken(@sw_green, 20%);
+@sw_darkest_green:      darken(@sw_green, 35%);
+
+// Brand
+
+@brand-primary:         @sw_blue;
+@brand-success:         @sw_green;
+@brand-info:            #5bc0de;
+@brand-warning:         @sw_light_red;
+@brand-danger:          @sw_red;
+
 
 //== Scaffolding
 //
@@ -58,7 +60,7 @@
 //** Background color for `<body>`.
 @body-bg:               #fff;
 //** Global text color on `<body>`.
-@text-color:            @gray-dark;
+@text-color:            @sw_dark_gray;
 
 //** Global textual link color.
 @link-color:            @brand-primary;
