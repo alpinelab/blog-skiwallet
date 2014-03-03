@@ -7,6 +7,11 @@
     <div class="entry-content">
       <?php the_content(); ?>
     </div>
+    <div class="thunbs-rating">
+      <? if (function_exists('thumbs_rating_getlink')) {
+        echo thumbs_rating_getlink();
+      } ?>
+    </div>
     <footer>
       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
     </footer>
