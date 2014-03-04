@@ -102,8 +102,12 @@ body {
 .hentry {
    margin-bottom: 5em;
    header { }
-   time { }
-   .byline { }
+   .byline {
+      font-style: italic;
+      color: @sw_lighter_gray;
+      a { color: @sw_lighter_gray; }
+      a:hover { text-decoration: underline; }
+   }
    .entry-title { margin-top: 0; }
    .entry-content { }
    footer { }
