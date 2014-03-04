@@ -119,7 +119,38 @@ body {
    Footer
    ========================================================================== */
 
-.content-info { }
+.content-info {
+   background: @sw_lighter_gray;
+   color: @sw_dark_gray;
+   .col-md-3 {
+      padding: 1em 2em;
+      margin: 1.5em 0;
+      border-left: solid 1px @sw_light_gray;
+   }
+   h3 {
+      font-weight: bold;
+      font-size: @font-size-h5;
+      margin: 0 0 0.75em;
+      text-transform: uppercase;
+   }
+   h4 { font-size: @font-size-smaller; margin-top: 0; }
+   ul {
+      list-style: none;
+      padding: 0;
+      &:not(:last-child) { margin-bottom: 2em; }
+      li {
+         margin: 0.3em 0;
+         line-height: @font-size-base;
+         a {
+            color: @sw_darker_gray;
+            font-size: @font-size-smaller;
+            &:hover { text-decoration: underline; }
+         }
+      }
+   }
+   .social-networks li { display: inline-block; margin-right: 0.2em; }
+
+}
 
 
 
