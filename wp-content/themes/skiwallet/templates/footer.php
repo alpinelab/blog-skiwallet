@@ -34,7 +34,7 @@
       </div>
 
       <div class="col-md-3">
-        <h3>Réseaux</h3>
+        <h3>Réseaux Sociaux</h3>
         <h4>Suivez nous</h4>
         <ul class="social-networks">
           <li>
@@ -53,7 +53,7 @@
             </a>
           </li>
         </ul>
-        <h3>Créé par</h3>
+        <h3>Partenaires</h3>
         <ul>
           <li><a href="http://www.alpine-lab.com">Alpine Lab</a></li>
           <li><a href="http://www.labonnepiste.com">La Bonne Piste</a></li>
