@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: SkiWallet\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-14 18:49+0100\n"
-"PO-Revision-Date: Sun Mar 02 2014 17:33:15 GMT+0100 (CET)\n"
+"PO-Revision-Date: Thu Mar 06 2014 04:34:25 GMT+0100 (CET)\n"
 "Last-Translator: Michael Baudino <michael.baudino+siteground@skiwallet.com>\n"
 "Language-Team: \n"
 "Language: French\n"
@@ -302,9 +302,13 @@ msgstr "Publié le %s à %s."
 
 #: templates/entry-meta.php:2
 msgid "Written by"
-msgstr "Écrit par"
+msgstr "Publié par"
 
 #: templates/entry-meta.php:6
+msgid "in"
+msgstr "dans"
+
+#: templates/entry-meta.php:8
 msgid "on"
 msgstr "le"
 
